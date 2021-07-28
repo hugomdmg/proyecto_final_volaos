@@ -1,0 +1,185 @@
+body {
+  margin: 0cm;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login{
+  padding-top: 0.5cm;
+  padding-left: 2cm;
+  padding-right: 8cm;
+  color: rgb(235, 226, 207);
+}
+
+
+.lista{
+  width: 4.5cm;
+  display: flex;
+}
+
+.lista1{
+  width: 4.5cm;
+}
+
+.nombrec{
+  width: 3cm;
+  color: rgb(153, 158, 238);
+}
+
+.select{
+  width: 2.5cm;
+}
+
+
+.tarjetas{
+  color: rgba(187, 129, 5, 0.856);
+  width: 70%;
+}
+
+.tarjetafinal{
+  margin-left: 25%;
+}
+
+
+body{
+  background:  url("fondo.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 1%;
+  border-color: black;
+}
+
+
+.cabecera{
+  width: 52.5%;
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1ch;
+}
+
+.cabecera1{
+  display: flex;
+  color: brown;
+  justify-content: space-between;
+}
+
+#esfera{
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+#botones{
+  margin-top: 20%;
+}
+
+.notas{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1cm;
+}
+
+.notas1{
+  width: 70%;
+}
+
+.eliminarnota{
+  height: 1cm;
+}
+
+#anadirennotas{
+  display: flex;
+  justify-content: space-between;
+}
+
+img.imagenespaises{
+  width: 60%;
+}
+
+img.imagenprueba{
+  width: 20%
+}
+
+.botonChat{
+  width: 20ch;
+}
+
+.cuadroChat{
+  border: none;
+}
+
+.mensajeEnviado{
+  background: rgb(131, 101, 4);
+  width: fit-content;
+  margin: 5px;
+  border-radius: 3px;
+  color: white;
+  padding: 3px;
+  padding-right: 8px;
+  
+}
+
+.mensajeEnviado1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mensajeRecibido{
+  background: rgb(3, 62, 117);
+  width: fit-content;
+  border-radius: 3px;
+  color: white;
+  padding: 3px;
+  padding-left: 8px;
+}
+
+#cuadroMensajes{
+  border-radius: 10px;
+  background:  url("fondo.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 3%;
+  border: 1px solid #000;
+}
+
+#formMensajes{
+  display: flex;
+  flex-direction: row;
+  background: seagreen;
+  border-radius: 10px;
+
+  width: 100%;
+}
+
+#bienvenida{
+  color: rgb(40, 131, 236);
+}
+
+#footer{
+  color:rgb(27, 123, 233);
+  display: flex;
+  flex-direction: row;
+}
+
+.botonorbitas{
+  width: 3ch;
+  border-radius: 4px;
+  background:  url("fondo.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
